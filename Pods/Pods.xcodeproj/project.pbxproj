@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1E77694AA2A97A0E33C17C1753AD54 /* Pods-CryptoExplorerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDDC0C9068375C6A6EA246A468C6B7 /* Pods-CryptoExplorerTests-dummy.m */; };
+		47770BC303310F40A028EEFAD56AD741 /* Pods-CryptoExplorer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BBC29E93A89FEFAD98C98F0672A4EB /* Pods-CryptoExplorer-dummy.m */; };
+		489FC7CC727801EB211471C7B4396A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C1AA25A0E14BB1A536682D48A1C2FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E45AB666F672CBB1935265C976A787B /* Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F79339178959E3F64A6147B91B58E /* Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m */; };
+		C05E287C3BD030F293E994EA2946C15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E127AC9BE1D27D436322F8E150F34B3D /* Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4A38E50E14D3A255A692A24F1AF8F5 /* Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E96D943E022379A0878FC7DD0AC82ECA /* Pods-CryptoExplorerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE192B90A274D81DCC9097C272E223C5 /* Pods-CryptoExplorerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BA70F5EE7354162AA0756AA7F9CC9F /* Pods-CryptoExplorer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B71FA496D27D382FBEB568EF3D4ADDC3 /* Pods-CryptoExplorer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B9AE61585E86D1552C62465A714CB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661BF25B44F218F2801CEBE5D4FF799;
+			remoteInfo = "Pods-CryptoExplorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CAB223C85B9D2EE7646297734DD8D0 /* Pods-CryptoExplorer-CryptoExplorerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CryptoExplorer-CryptoExplorerUITests"; path = Pods_CryptoExplorer_CryptoExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		233545D110536428674BBB3D4A76D45D /* Pods-CryptoExplorer-CryptoExplorerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoExplorer-CryptoExplorerUITests.modulemap"; sourceTree = "<group>"; };
+		34EDDC0C9068375C6A6EA246A468C6B7 /* Pods-CryptoExplorerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoExplorerTests-dummy.m"; sourceTree = "<group>"; };
+		3637270C78ED1FDEB4814F18F3A8AFF1 /* Pods-CryptoExplorer-CryptoExplorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer-CryptoExplorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3971BC8C4138ED41F6F72CE96698C18A /* Pods-CryptoExplorerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorerTests-Info.plist"; sourceTree = "<group>"; };
+		3A8F79339178959E3F64A6147B91B58E /* Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m"; sourceTree = "<group>"; };
+		44FF0491A22E38D3A7E96535010BE3EF /* Pods-CryptoExplorerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoExplorerTests.modulemap"; sourceTree = "<group>"; };
+		4791822436326ACE5D4A9AD8078D0F56 /* Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58771F65A8568C622DA6B08934F201BF /* Pods-CryptoExplorerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoExplorerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66BBC29E93A89FEFAD98C98F0672A4EB /* Pods-CryptoExplorer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoExplorer-dummy.m"; sourceTree = "<group>"; };
+		683A33F02C6D92DB031A1C02AA13C695 /* Pods-CryptoExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C2C60EF301ACDA4F4562AB57E0F46FB /* Pods-CryptoExplorer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		836156D27BE1D3D34D9671DA42E5E923 /* Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99BD1DF31DF20EAEDBC1FFD3A0254CAD /* Pods-CryptoExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5512204D50295091795851702134C0 /* Pods-CryptoExplorerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CryptoExplorerTests"; path = Pods_CryptoExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5757CB740276130EB39BE1F4F233A /* Pods-CryptoExplorerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B11890AF7A658748B0D48D5803A3E2CF /* Pods-CryptoExplorer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-Info.plist"; sourceTree = "<group>"; };
+		B71FA496D27D382FBEB568EF3D4ADDC3 /* Pods-CryptoExplorer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoExplorer-umbrella.h"; sourceTree = "<group>"; };
+		BC4A38E50E14D3A255A692A24F1AF8F5 /* Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h"; sourceTree = "<group>"; };
+		C37E8E671B97A30A4C5DD6181DC9931F /* Pods-CryptoExplorer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoExplorer.modulemap"; sourceTree = "<group>"; };
+		C887813DEBCA20026746A5D9B06DFB08 /* Pods-CryptoExplorer-CryptoExplorerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-CryptoExplorerUITests-Info.plist"; sourceTree = "<group>"; };
+		CDA3841B75016516CEA40788CCA99A5E /* Pods-CryptoExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer.release.xcconfig"; sourceTree = "<group>"; };
+		CE192B90A274D81DCC9097C272E223C5 /* Pods-CryptoExplorerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoExplorerTests-umbrella.h"; sourceTree = "<group>"; };
+		E9CB93749C64816F1946B22BBC547790 /* Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFA9E91DC99EEC0AD52B997E02E59EBF /* Pods-CryptoExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EDFF24701D0FAEB8102AD727AD6354 /* Pods-CryptoExplorer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoExplorer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CryptoExplorer"; path = Pods_CryptoExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A01BAB09B23D57C6DBBBC44BDC3EBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489FC7CC727801EB211471C7B4396A70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F39430447D4029702B1ED51C3F5960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1AA25A0E14BB1A536682D48A1C2FE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2774DEC6DA2DE9179C4FE0FF8A1FD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05E287C3BD030F293E994EA2946C15A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C287FF52C68C7E6033C438F9BB9691 /* Pods-CryptoExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				C37E8E671B97A30A4C5DD6181DC9931F /* Pods-CryptoExplorer.modulemap */,
+				F1EDFF24701D0FAEB8102AD727AD6354 /* Pods-CryptoExplorer-acknowledgements.markdown */,
+				6C2C60EF301ACDA4F4562AB57E0F46FB /* Pods-CryptoExplorer-acknowledgements.plist */,
+				66BBC29E93A89FEFAD98C98F0672A4EB /* Pods-CryptoExplorer-dummy.m */,
+				B11890AF7A658748B0D48D5803A3E2CF /* Pods-CryptoExplorer-Info.plist */,
+				B71FA496D27D382FBEB568EF3D4ADDC3 /* Pods-CryptoExplorer-umbrella.h */,
+				EFA9E91DC99EEC0AD52B997E02E59EBF /* Pods-CryptoExplorer.debug.xcconfig */,
+				CDA3841B75016516CEA40788CCA99A5E /* Pods-CryptoExplorer.release.xcconfig */,
+			);
+			name = "Pods-CryptoExplorer";
+			path = "Target Support Files/Pods-CryptoExplorer";
+			sourceTree = "<group>";
+		};
+		3DCAD16E630470F8743B43571A14BCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */,
+				05CAB223C85B9D2EE7646297734DD8D0 /* Pods-CryptoExplorer-CryptoExplorerUITests */,
+				9F5512204D50295091795851702134C0 /* Pods-CryptoExplorerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7B74C1F6191826EBC293EC286FE3FE /* Pods-CryptoExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				44FF0491A22E38D3A7E96535010BE3EF /* Pods-CryptoExplorerTests.modulemap */,
+				58771F65A8568C622DA6B08934F201BF /* Pods-CryptoExplorerTests-acknowledgements.markdown */,
+				A1D5757CB740276130EB39BE1F4F233A /* Pods-CryptoExplorerTests-acknowledgements.plist */,
+				34EDDC0C9068375C6A6EA246A468C6B7 /* Pods-CryptoExplorerTests-dummy.m */,
+				3971BC8C4138ED41F6F72CE96698C18A /* Pods-CryptoExplorerTests-Info.plist */,
+				CE192B90A274D81DCC9097C272E223C5 /* Pods-CryptoExplorerTests-umbrella.h */,
+				99BD1DF31DF20EAEDBC1FFD3A0254CAD /* Pods-CryptoExplorerTests.debug.xcconfig */,
+				683A33F02C6D92DB031A1C02AA13C695 /* Pods-CryptoExplorerTests.release.xcconfig */,
+			);
+			name = "Pods-CryptoExplorerTests";
+			path = "Target Support Files/Pods-CryptoExplorerTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C508F0DF7B4315F5C24C4CDDC4B9040 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C287FF52C68C7E6033C438F9BB9691 /* Pods-CryptoExplorer */,
+				90BA5C9A526FF897CB53E84113A4ECA2 /* Pods-CryptoExplorer-CryptoExplorerUITests */,
+				4A7B74C1F6191826EBC293EC286FE3FE /* Pods-CryptoExplorerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		90BA5C9A526FF897CB53E84113A4ECA2 /* Pods-CryptoExplorer-CryptoExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233545D110536428674BBB3D4A76D45D /* Pods-CryptoExplorer-CryptoExplorerUITests.modulemap */,
+				4791822436326ACE5D4A9AD8078D0F56 /* Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.markdown */,
+				E9CB93749C64816F1946B22BBC547790 /* Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.plist */,
+				3A8F79339178959E3F64A6147B91B58E /* Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m */,
+				C887813DEBCA20026746A5D9B06DFB08 /* Pods-CryptoExplorer-CryptoExplorerUITests-Info.plist */,
+				BC4A38E50E14D3A255A692A24F1AF8F5 /* Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h */,
+				836156D27BE1D3D34D9671DA42E5E923 /* Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig */,
+				3637270C78ED1FDEB4814F18F3A8AFF1 /* Pods-CryptoExplorer-CryptoExplorerUITests.release.xcconfig */,
+			);
+			name = "Pods-CryptoExplorer-CryptoExplorerUITests";
+			path = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3DCAD16E630470F8743B43571A14BCCE /* Products */,
+				5C508F0DF7B4315F5C24C4CDDC4B9040 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03E37F6DAC1A77A781AA6DC8A0DAAE3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96D943E022379A0878FC7DD0AC82ECA /* Pods-CryptoExplorerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32B59373817BAB363409C9D6A2C3327 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BA70F5EE7354162AA0756AA7F9CC9F /* Pods-CryptoExplorer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E3B2B831BD5EC80D44C83E981A2D22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127AC9BE1D27D436322F8E150F34B3D /* Pods-CryptoExplorer-CryptoExplorerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07CB24C9E5720E1BA02DA7E4D8B0DE4E /* Pods-CryptoExplorer-CryptoExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F76295A1915A6044E7A4F3FB5770EE /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorer-CryptoExplorerUITests" */;
+			buildPhases = (
+				D9E3B2B831BD5EC80D44C83E981A2D22 /* Headers */,
+				1B1C60439EB496662D7A2BD99902BB6D /* Sources */,
+				5A01BAB09B23D57C6DBBBC44BDC3EBC3 /* Frameworks */,
+				F140F6BE49842708EE9182B462688858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoExplorer-CryptoExplorerUITests";
+			productName = Pods_CryptoExplorer_CryptoExplorerUITests;
+			productReference = 05CAB223C85B9D2EE7646297734DD8D0 /* Pods-CryptoExplorer-CryptoExplorerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B423B5398C53406DFE674FA07C66B0A /* Pods-CryptoExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB74A417CD1806F37D308241323CC5E8 /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorerTests" */;
+			buildPhases = (
+				03E37F6DAC1A77A781AA6DC8A0DAAE3B /* Headers */,
+				F67D4ADBED765A54FC07936AA96F8223 /* Sources */,
+				E2774DEC6DA2DE9179C4FE0FF8A1FD58 /* Frameworks */,
+				F62F35AFDEDB620131D0B30B3A360F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35EEFC32943CF8361EEF1F3E0B2542CA /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoExplorerTests";
+			productName = Pods_CryptoExplorerTests;
+			productReference = 9F5512204D50295091795851702134C0 /* Pods-CryptoExplorerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F661BF25B44F218F2801CEBE5D4FF799 /* Pods-CryptoExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39041C80053597EE41918EE0C85062A9 /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorer" */;
+			buildPhases = (
+				D32B59373817BAB363409C9D6A2C3327 /* Headers */,
+				4C03BB4E4D02353F91103B198AC5D146 /* Sources */,
+				A3F39430447D4029702B1ED51C3F5960 /* Frameworks */,
+				BC7D0298F321BC0CC3390DED7776245E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoExplorer";
+			productName = Pods_CryptoExplorer;
+			productReference = F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3DCAD16E630470F8743B43571A14BCCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F661BF25B44F218F2801CEBE5D4FF799 /* Pods-CryptoExplorer */,
+				07CB24C9E5720E1BA02DA7E4D8B0DE4E /* Pods-CryptoExplorer-CryptoExplorerUITests */,
+				7B423B5398C53406DFE674FA07C66B0A /* Pods-CryptoExplorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC7D0298F321BC0CC3390DED7776245E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F140F6BE49842708EE9182B462688858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62F35AFDEDB620131D0B30B3A360F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1C60439EB496662D7A2BD99902BB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E45AB666F672CBB1935265C976A787B /* Pods-CryptoExplorer-CryptoExplorerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C03BB4E4D02353F91103B198AC5D146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47770BC303310F40A028EEFAD56AD741 /* Pods-CryptoExplorer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67D4ADBED765A54FC07936AA96F8223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1E77694AA2A97A0E33C17C1753AD54 /* Pods-CryptoExplorerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35EEFC32943CF8361EEF1F3E0B2542CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CryptoExplorer";
+			target = F661BF25B44F218F2801CEBE5D4FF799 /* Pods-CryptoExplorer */;
+			targetProxy = 53B9AE61585E86D1552C62465A714CB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A60A18420D79799A3935515862B137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BD1DF31DF20EAEDBC1FFD3A0254CAD /* Pods-CryptoExplorerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorerTests/Pods-CryptoExplorerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorerTests/Pods-CryptoExplorerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1665DD3C717228E6A76F9D67F4DF6880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA9E91DC99EEC0AD52B997E02E59EBF /* Pods-CryptoExplorer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EACE285928E43041B7542CB924BD312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3637270C78ED1FDEB4814F18F3A8AFF1 /* Pods-CryptoExplorer-CryptoExplorerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests/Pods-CryptoExplorer-CryptoExplorerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests/Pods-CryptoExplorer-CryptoExplorerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E0566719EF9DEAB8A4BCED94F6DFDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA3841B75016516CEA40788CCA99A5E /* Pods-CryptoExplorer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A7CE0F4EAA89BE391332728606E06ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683A33F02C6D92DB031A1C02AA13C695 /* Pods-CryptoExplorerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorerTests/Pods-CryptoExplorerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorerTests/Pods-CryptoExplorerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7AEB5A3C0CE60BE229BE10F5A31A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836156D27BE1D3D34D9671DA42E5E923 /* Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests/Pods-CryptoExplorer-CryptoExplorerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests/Pods-CryptoExplorer-CryptoExplorerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39041C80053597EE41918EE0C85062A9 /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1665DD3C717228E6A76F9D67F4DF6880 /* Debug */,
+				7E0566719EF9DEAB8A4BCED94F6DFDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB74A417CD1806F37D308241323CC5E8 /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A60A18420D79799A3935515862B137 /* Debug */,
+				8A7CE0F4EAA89BE391332728606E06ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F76295A1915A6044E7A4F3FB5770EE /* Build configuration list for PBXNativeTarget "Pods-CryptoExplorer-CryptoExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AEB5A3C0CE60BE229BE10F5A31A912 /* Debug */,
+				3EACE285928E43041B7542CB924BD312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

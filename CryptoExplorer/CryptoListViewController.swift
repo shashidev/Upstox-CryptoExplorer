@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CryptoListViewController.swift
 //  CryptoExplorer
 //
 //  Created by Shashi Ranjan on 02/12/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CryptoListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
