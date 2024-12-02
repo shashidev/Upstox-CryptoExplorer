@@ -126,9 +126,13 @@
 		81930A1E2CFDC59600166E3C /* CryptoExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				81930A1F2CFDC59600166E3C /* AppDelegate.swift */,
-				81930A212CFDC59600166E3C /* SceneDelegate.swift */,
-				81930A232CFDC59600166E3C /* CryptoListViewController.swift */,
+				81930A542CFDD26300166E3C /* Models */,
+				81930A532CFDD25600166E3C /* Views */,
+				81930A562CFDD44D00166E3C /* ViewModels */,
+				81930A572CFDD5EB00166E3C /* Services */,
+				81930A592CFDD5FA00166E3C /* LocalStorage */,
+				81930A582CFDD5F300166E3C /* Network */,
+				81930A522CFDD24700166E3C /* SupportingFiles */,
 				81930A2B2CFDC59800166E3C /* Assets.xcassets */,
 				81930A2D2CFDC59800166E3C /* LaunchScreen.storyboard */,
 				81930A302CFDC59800166E3C /* Info.plist */,
@@ -154,6 +158,58 @@
 			path = CryptoExplorerUITests;
 			sourceTree = "<group>";
 		};
+		81930A522CFDD24700166E3C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				81930A1F2CFDC59600166E3C /* AppDelegate.swift */,
+				81930A212CFDC59600166E3C /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		81930A532CFDD25600166E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81930A232CFDC59600166E3C /* CryptoListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81930A542CFDD26300166E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81930A562CFDD44D00166E3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		81930A572CFDD5EB00166E3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		81930A582CFDD5F300166E3C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		81930A592CFDD5FA00166E3C /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
 		CEF7EDCCF90C4833A1E34346 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +220,6 @@
 				3E384FF395F62A973CDC8B84 /* Pods-CryptoExplorerTests.debug.xcconfig */,
 				06B7C7C31F35CA67DBBCF4BD /* Pods-CryptoExplorerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
