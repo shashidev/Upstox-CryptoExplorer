@@ -44,7 +44,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		836156D27BE1D3D34D9671DA42E5E923 /* Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		99BD1DF31DF20EAEDBC1FFD3A0254CAD /* Pods-CryptoExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F5512204D50295091795851702134C0 /* Pods-CryptoExplorerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CryptoExplorerTests"; path = Pods_CryptoExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D5757CB740276130EB39BE1F4F233A /* Pods-CryptoExplorerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B11890AF7A658748B0D48D5803A3E2CF /* Pods-CryptoExplorer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-Info.plist"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		E9CB93749C64816F1946B22BBC547790 /* Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoExplorer-CryptoExplorerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFA9E91DC99EEC0AD52B997E02E59EBF /* Pods-CryptoExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoExplorer.debug.xcconfig"; sourceTree = "<group>"; };
 		F1EDFF24701D0FAEB8102AD727AD6354 /* Pods-CryptoExplorer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoExplorer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CryptoExplorer"; path = Pods_CryptoExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F835E3BB9A44FBF42096C64C85B39DDE /* Pods_CryptoExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		3DCAD16E630470F8743B43571A14BCCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */,
+				F835E3BB9A44FBF42096C64C85B39DDE /* Pods_CryptoExplorer.framework */,
 				05CAB223C85B9D2EE7646297734DD8D0 /* Pods-CryptoExplorer-CryptoExplorerUITests */,
 				9F5512204D50295091795851702134C0 /* Pods-CryptoExplorerTests */,
 			);
@@ -264,7 +264,7 @@
 			);
 			name = "Pods-CryptoExplorer";
 			productName = Pods_CryptoExplorer;
-			productReference = F835E3BB9A44FBF42096C64C85B39DDE /* Pods-CryptoExplorer */;
+			productReference = F835E3BB9A44FBF42096C64C85B39DDE /* Pods_CryptoExplorer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
