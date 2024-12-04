@@ -7,15 +7,30 @@
 
 import Foundation
 
+/// A concrete implementation of `CryptoViewModelProtocol` that handles cryptocurrency data
+class CryptoViewModel: CryptoViewModelProtocol {
 
-class CryptoViewModel {
+    /// The service responsible for fetching cryptocurrency data
+    private var cryptoService: CryptoService
+
+    /// A list of all fetched coins, unfiltered
     private var allCoins: [CryptoCoin] = []
+
+    /// A list of currently visible, filtered coins
     var filteredCoins: [CryptoCoin] = []
 
+    /// A callback that gets triggered when the data is updated (e.g., after fetching or filtering)
     var onDataUpdated: (() -> Void)?
 
+    /// Initializes the view model with an optional crypto service. Defaults to `CryptoServiceImpl`.
+    /// - Parameter cryptoService: The service used to fetch cryptocurrency data.
+    init(cryptoService: CryptoService = CryptoServiceImpl()) {
+        self.cryptoService = cryptoService
+    }
+
+    /// Fetches cryptocurrency data and updates the `filteredCoins` list.
     func fetchCryptoCoins() {
-        NetworkManager.shared.fetchCryptoCoins { [weak self] result in
+        cryptoService.fetchCryptoCoins { [weak self] result in
             switch result {
             case .success(let coins):
                 self?.allCoins = coins
@@ -27,6 +42,11 @@ class CryptoViewModel {
         }
     }
 
+    /// Filters coins based on the provided criteria.
+    /// - Parameters:
+    ///   - isActive: Optional filter for active/inactive status.
+    ///   - isNew: Optional filter for new coins.
+    ///   - type: Optional filter for coin type.
     func filterCoins(isActive: Bool? = nil, isNew: Bool? = nil, type: String? = nil) {
         filteredCoins = allCoins.filter { coin in
             let matchesActive = isActive == nil || coin.isActive == isActive
@@ -37,6 +57,8 @@ class CryptoViewModel {
         onDataUpdated?()
     }
 
+    /// Searches for coins by name or symbol.
+    /// - Parameter query: The search query string.
     func searchCoins(query: String) {
         if query.isEmpty {
             filteredCoins = allCoins
