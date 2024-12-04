@@ -20,8 +20,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         let initialViewController = CryptoListViewController()
+
+        let navigationController = UINavigationController(rootViewController: initialViewController)
+
         initialViewController.view.backgroundColor = .white
-        window?.rootViewController = initialViewController
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 
