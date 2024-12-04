@@ -7,29 +7,46 @@
 
 import Foundation
 
+/// A class that conforms to the `Networking` protocol, responsible for performing network requests using `URLSession`.
+class URLSessionNetworkManager: Networking {
 
-class NetworkManager {
-    static let shared = NetworkManager()
-    private init() {}
+    private var session: URLSession  // URLSession instance to manage the network requests
 
-    func fetchCryptoCoins(completion: @escaping (Result<[CryptoCoin], Error>) -> Void) {
-        let urlString = "https://37656be98b8f42ae8348e4da3ee3193f.api.mockbin.io/"
-        guard let url = URL(string: urlString) else { return }
+    /// Initializes the network manager with a custom `URLSessionConfiguration`. Defaults to `.default`.
+    /// - Parameter configuration: Custom configuration for the session.
+    init(configuration: URLSessionConfiguration = .default) {
+        self.session = URLSession(configuration: configuration)
+    }
 
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
-                completion(.failure(error))
-                return
+    /// Fetches data from the specified URL, decodes it to the specified type, and returns the result.
+    /// - Parameters:
+    ///   - url: The URL from which to fetch data.
+    ///   - completion: A closure that is called with the decoded result or an error.
+    func fetch<T: Decodable>(url: URL, completion: @escaping (Result<T, Error>) -> Void) {
+        DispatchQueue.global(qos: .background).async {
+
+            let task = self.session.dataTask(with: url) { data, response, error in
+                DispatchQueue.main.async {
+                    if let error = error {
+                        return completion(.failure(error))
+                    }
+
+                    guard let data = data else {
+                        return completion(.failure(NetworkError.noData))
+                    }
+
+                    do {
+                        let decodedData = try JSONDecoder().decode(T.self, from: data)
+                        completion(.success(decodedData))
+                    } catch {
+                        completion(.failure(NetworkError.decodingError))
+                    }
+                }
+
             }
-
-            guard let data = data else { return }
-
-            do {
-                let coins = try JSONDecoder().decode([CryptoCoin].self, from: data)
-                completion(.success(coins))
-            } catch {
-                completion(.failure(error))
-            }
-        }.resume()
+            task.resume()
+        }
     }
 }
+
+
