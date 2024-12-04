@@ -28,6 +28,8 @@
 		81930A6A2D00D3D100166E3C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A692D00D3D100166E3C /* NetworkError.swift */; };
 		81930A6C2D00D3F000166E3C /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A6B2D00D3F000166E3C /* CryptoService.swift */; };
 		81930A6F2D00D8B300166E3C /* CryptoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A6E2D00D8B300166E3C /* CryptoViewModelProtocol.swift */; };
+		81930A732D00F6DE00166E3C /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A722D00F6DE00166E3C /* UIConstants.swift */; };
+		81930A752D00F75300166E3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A742D00F75300166E3C /* Constants.swift */; };
 		A15DDD3DAFE514B1FAD01910 /* Pods_CryptoExplorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BEEAA9787E24E9C20EA4F7 /* Pods_CryptoExplorerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		81930A692D00D3D100166E3C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		81930A6B2D00D3F000166E3C /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		81930A6E2D00D8B300166E3C /* CryptoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModelProtocol.swift; sourceTree = "<group>"; };
+		81930A722D00F6DE00166E3C /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		81930A742D00F75300166E3C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9CFAFC3955FE897A8910F59 /* Pods-CryptoExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoExplorer.release.xcconfig"; path = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		D4A21E2EFF766B77BB178CAC /* Pods_CryptoExplorer_CryptoExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoExplorer_CryptoExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,6 +150,7 @@
 		81930A1E2CFDC59600166E3C /* CryptoExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				81930A702D00F6AB00166E3C /* Resources */,
 				81930A542CFDD26300166E3C /* Models */,
 				81930A532CFDD25600166E3C /* Views */,
 				81930A562CFDD44D00166E3C /* ViewModels */,
@@ -254,6 +259,23 @@
 				81930A6E2D00D8B300166E3C /* CryptoViewModelProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		81930A702D00F6AB00166E3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81930A712D00F6BC00166E3C /* Constants */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81930A712D00F6BC00166E3C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				81930A722D00F6DE00166E3C /* UIConstants.swift */,
+				81930A742D00F75300166E3C /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		CEF7EDCCF90C4833A1E34346 /* Pods */ = {
@@ -473,10 +495,12 @@
 			files = (
 				81930A242CFDC59600166E3C /* CryptoListViewController.swift in Sources */,
 				81930A6F2D00D8B300166E3C /* CryptoViewModelProtocol.swift in Sources */,
+				81930A732D00F6DE00166E3C /* UIConstants.swift in Sources */,
 				81930A682D00D3B000166E3C /* NetworkConfig.swift in Sources */,
 				81930A662D00D39A00166E3C /* Networking.swift in Sources */,
 				81930A5C2CFED55800166E3C /* CoinCell.swift in Sources */,
 				81930A642D00D02800166E3C /* CryptoServiceImpl.swift in Sources */,
+				81930A752D00F75300166E3C /* Constants.swift in Sources */,
 				81930A2A2CFDC59600166E3C /* CryptoExplorer.xcdatamodeld in Sources */,
 				81930A602CFED5D000166E3C /* CryptoCoin.swift in Sources */,
 				81930A622CFED60D00166E3C /* NetworkManager.swift in Sources */,

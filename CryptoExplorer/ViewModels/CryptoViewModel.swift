@@ -22,6 +22,8 @@ class CryptoViewModel: CryptoViewModelProtocol {
     /// A callback that gets triggered when the data is updated (e.g., after fetching or filtering)
     var onDataUpdated: (() -> Void)?
 
+    var onError: (() -> Void)?
+
     /// Initializes the view model with an optional crypto service. Defaults to `CryptoServiceImpl`.
     /// - Parameter cryptoService: The service used to fetch cryptocurrency data.
     init(cryptoService: CryptoService = CryptoServiceImpl()) {
@@ -38,6 +40,7 @@ class CryptoViewModel: CryptoViewModelProtocol {
                 self?.onDataUpdated?()
             case .failure(let error):
                 print("Error fetching coins: \(error)")
+                self?.onError?()
             }
         }
     }
