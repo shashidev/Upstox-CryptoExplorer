@@ -25,9 +25,10 @@ class CryptoServiceImpl: CryptoService {
     func fetchCryptoCoins(completion: @escaping (Result<[CryptoCoin], Error>) -> Void) {
 
         // Construct the full URL using NetworkConfig, passing the empty path as an example.
-        if let url = NetworkConfig.makeURL(path: NetworkConfig.Endpoints.empty) {
-            networkManager.fetch(url: url, completion: completion)
+        guard let url = NetworkConfig.makeURL(path: NetworkConfig.Endpoints.empty) else {
+            return completion(.failure(NetworkError.invalidURL))
         }
+        networkManager.fetch(url: url, completion: completion)
     }
 }
 
