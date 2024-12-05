@@ -14,6 +14,6 @@ protocol Networking {
     /// - Parameters:
     ///   - url: The URL to fetch data from.
     ///   - completion: A closure that returns either a decoded result or an error.
-    func fetch<T: Decodable>(url: URL, completion: @escaping (Result<T, Error>) -> Void)
+    func fetch<T: Codable>(url: URL, entityName: String, completion: @escaping (Result<T, Error>) -> Void)
 }
 
