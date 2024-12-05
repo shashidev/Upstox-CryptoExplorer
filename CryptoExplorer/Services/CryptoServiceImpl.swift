@@ -28,7 +28,7 @@ class CryptoServiceImpl: CryptoService {
         guard let url = NetworkConfig.makeURL(path: NetworkConfig.Endpoints.empty) else {
             return completion(.failure(NetworkError.invalidURL))
         }
-        networkManager.fetch(url: url, completion: completion)
+        networkManager.fetch(url: url, entityName: "CryptoCoinEntity", completion: completion)
     }
 }
 
