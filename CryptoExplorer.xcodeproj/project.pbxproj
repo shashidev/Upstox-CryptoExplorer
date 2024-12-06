@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		076809A1598537AB4EE3C36D /* Pods_CryptoExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121A31ACEF0F81BA5C45513A /* Pods_CryptoExplorer.framework */; };
 		1A31F045AEC3774E56CFBCF7 /* Pods_CryptoExplorer_CryptoExplorerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A21E2EFF766B77BB178CAC /* Pods_CryptoExplorer_CryptoExplorerUITests.framework */; };
+		810A97542D024D69003025F9 /* LocalStorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A97512D024D68003025F9 /* LocalStorageAPI.swift */; };
+		810A97552D024D69003025F9 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A97522D024D68003025F9 /* CoreDataService.swift */; };
+		810A97562D024D69003025F9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A97532D024D68003025F9 /* CoreDataStack.swift */; };
+		810A97582D0255AD003025F9 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A97572D0255AD003025F9 /* NetworkReachability.swift */; };
+		810A975A2D025B13003025F9 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A97592D025B13003025F9 /* CoreDataError.swift */; };
+		812ED9BE2D0188A200591C6A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812ED9BD2D0188A200591C6A /* String+Extension.swift */; };
 		81930A202CFDC59600166E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A1F2CFDC59600166E3C /* AppDelegate.swift */; };
 		81930A222CFDC59600166E3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A212CFDC59600166E3C /* SceneDelegate.swift */; };
 		81930A242CFDC59600166E3C /* CryptoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A232CFDC59600166E3C /* CryptoListViewController.swift */; };
@@ -30,6 +36,8 @@
 		81930A6F2D00D8B300166E3C /* CryptoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A6E2D00D8B300166E3C /* CryptoViewModelProtocol.swift */; };
 		81930A732D00F6DE00166E3C /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A722D00F6DE00166E3C /* UIConstants.swift */; };
 		81930A752D00F75300166E3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A742D00F75300166E3C /* Constants.swift */; };
+		81930A772D01861800166E3C /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A762D01861800166E3C /* ImageConstants.swift */; };
+		81930A792D0186E900166E3C /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81930A782D0186E900166E3C /* FilterType.swift */; };
 		A15DDD3DAFE514B1FAD01910 /* Pods_CryptoExplorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BEEAA9787E24E9C20EA4F7 /* Pods_CryptoExplorerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +66,12 @@
 		3E384FF395F62A973CDC8B84 /* Pods-CryptoExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoExplorerTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoExplorerTests/Pods-CryptoExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		70BEEAA9787E24E9C20EA4F7 /* Pods_CryptoExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECDC61868B67449ABE16855 /* Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoExplorer-CryptoExplorerUITests/Pods-CryptoExplorer-CryptoExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		810A97512D024D68003025F9 /* LocalStorageAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageAPI.swift; sourceTree = "<group>"; };
+		810A97522D024D68003025F9 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		810A97532D024D68003025F9 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		810A97572D0255AD003025F9 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		810A97592D025B13003025F9 /* CoreDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
+		812ED9BD2D0188A200591C6A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		81930A1C2CFDC59600166E3C /* CryptoExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81930A1F2CFDC59600166E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81930A212CFDC59600166E3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +97,8 @@
 		81930A6E2D00D8B300166E3C /* CryptoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModelProtocol.swift; sourceTree = "<group>"; };
 		81930A722D00F6DE00166E3C /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		81930A742D00F75300166E3C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		81930A762D01861800166E3C /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		81930A782D0186E900166E3C /* FilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
 		C9CFAFC3955FE897A8910F59 /* Pods-CryptoExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoExplorer.release.xcconfig"; path = "Target Support Files/Pods-CryptoExplorer/Pods-CryptoExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		D4A21E2EFF766B77BB178CAC /* Pods_CryptoExplorer_CryptoExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoExplorer_CryptoExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -234,6 +250,7 @@
 				81930A652D00D39A00166E3C /* Networking.swift */,
 				81930A672D00D3B000166E3C /* NetworkConfig.swift */,
 				81930A692D00D3D100166E3C /* NetworkError.swift */,
+				810A97572D0255AD003025F9 /* NetworkReachability.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -241,6 +258,10 @@
 		81930A592CFDD5FA00166E3C /* LocalStorage */ = {
 			isa = PBXGroup;
 			children = (
+				810A97522D024D68003025F9 /* CoreDataService.swift */,
+				810A97532D024D68003025F9 /* CoreDataStack.swift */,
+				810A97512D024D68003025F9 /* LocalStorageAPI.swift */,
+				810A97592D025B13003025F9 /* CoreDataError.swift */,
 			);
 			path = LocalStorage;
 			sourceTree = "<group>";
@@ -264,6 +285,7 @@
 		81930A702D00F6AB00166E3C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				81930A7A2D01878F00166E3C /* Extensions */,
 				81930A712D00F6BC00166E3C /* Constants */,
 			);
 			path = Resources;
@@ -274,8 +296,18 @@
 			children = (
 				81930A722D00F6DE00166E3C /* UIConstants.swift */,
 				81930A742D00F75300166E3C /* Constants.swift */,
+				81930A762D01861800166E3C /* ImageConstants.swift */,
+				81930A782D0186E900166E3C /* FilterType.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		81930A7A2D01878F00166E3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				812ED9BD2D0188A200591C6A /* String+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CEF7EDCCF90C4833A1E34346 /* Pods */ = {
@@ -493,22 +525,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810A97582D0255AD003025F9 /* NetworkReachability.swift in Sources */,
 				81930A242CFDC59600166E3C /* CryptoListViewController.swift in Sources */,
 				81930A6F2D00D8B300166E3C /* CryptoViewModelProtocol.swift in Sources */,
 				81930A732D00F6DE00166E3C /* UIConstants.swift in Sources */,
+				812ED9BE2D0188A200591C6A /* String+Extension.swift in Sources */,
 				81930A682D00D3B000166E3C /* NetworkConfig.swift in Sources */,
 				81930A662D00D39A00166E3C /* Networking.swift in Sources */,
+				81930A772D01861800166E3C /* ImageConstants.swift in Sources */,
+				810A97552D024D69003025F9 /* CoreDataService.swift in Sources */,
 				81930A5C2CFED55800166E3C /* CoinCell.swift in Sources */,
 				81930A642D00D02800166E3C /* CryptoServiceImpl.swift in Sources */,
+				810A975A2D025B13003025F9 /* CoreDataError.swift in Sources */,
 				81930A752D00F75300166E3C /* Constants.swift in Sources */,
 				81930A2A2CFDC59600166E3C /* CryptoExplorer.xcdatamodeld in Sources */,
 				81930A602CFED5D000166E3C /* CryptoCoin.swift in Sources */,
 				81930A622CFED60D00166E3C /* NetworkManager.swift in Sources */,
 				81930A202CFDC59600166E3C /* AppDelegate.swift in Sources */,
+				810A97542D024D69003025F9 /* LocalStorageAPI.swift in Sources */,
 				81930A6A2D00D3D100166E3C /* NetworkError.swift in Sources */,
+				810A97562D024D69003025F9 /* CoreDataStack.swift in Sources */,
 				81930A6C2D00D3F000166E3C /* CryptoService.swift in Sources */,
 				81930A222CFDC59600166E3C /* SceneDelegate.swift in Sources */,
 				81930A5E2CFED58B00166E3C /* CryptoViewModel.swift in Sources */,
+				81930A792D0186E900166E3C /* FilterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
